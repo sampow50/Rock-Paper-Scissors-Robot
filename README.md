@@ -1,36 +1,24 @@
 # Rock Paper Scissors Robot 🤖✊✋✌️
 
-This project is a robotic system that allows a user to play Rock-Paper-Scissors against a physical robotic arm using real-time gesture recognition.
+This project is a robotic system that allows a user to play Rock-Paper-Scissors against a robotic arm using real-time gesture recognition.
 
-## 🚀 Features
-- Real-time hand gesture detection using MediaPipe
-- Robotic arm controlled via Raspberry Pi motors
-- Game logic to determine outcomes and track results
-- Integration of hardware and software systems
+## Project Structure
 
-## 🛠️ Technologies Used
+- `hand_input.py` – Handles gesture recognition using MediaPipe and processes camera input
+- `rps_game.py` – Contains game logic and determines outcomes based on user input
+
+## Features
+- Real-time gesture detection
+- Game logic for Rock-Paper-Scissors
+- Integration with Raspberry Pi motor control (not fully included in this repo)
+
+## Technologies Used
 - Python
-- C++
+- MediaPipe
 - Raspberry Pi
-- MediaPipe (computer vision)
-- GPIO libraries for motor control
+- GPIO libraries
 
-## ⚙️ How It Works
-1. The camera captures the user’s hand gesture
-2. MediaPipe processes the image and classifies the gesture
-3. The system determines the winner using game logic
-4. The Raspberry Pi sends signals to motors to perform a move
-
-## 📚 What I Learned
-- Integrating computer vision with hardware systems
-- Real-time input processing and response
-- Controlling motors using Python and GPIO libraries
-- Debugging across both software and hardware layers
-
-## 🎥 Demo
-(Add video link here if possible)
-
-## 🔧 Future Improvements
-- Improve gesture recognition accuracy
-- Add a GUI interface
-- Optimize response time
+## What I Learned
+- Integrating computer vision with real-time systems
+- Structuring code into modular components
+- Connecting software logic with physical hardware

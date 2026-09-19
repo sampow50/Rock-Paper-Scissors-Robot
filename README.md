@@ -16,7 +16,6 @@ A robotic system that allows a user to play Rock-Paper-Scissors against a roboti
 - Python
 - MediaPipe
 - Raspberry Pi
-- GPIO libraries
 
 ## What I Learned
 - Integrating computer vision with real-time systems

@@ -1,6 +1,6 @@
 # Rock Paper Scissors Robot 🤖✊✋✌️
 
-This project is a robotic system that allows a user to play Rock-Paper-Scissors against a robotic arm using real-time gesture recognition.
+A robotic system that allows a user to play Rock-Paper-Scissors against a robotic arm using real-time gesture recognition.
 
 ## Project Structure
 
